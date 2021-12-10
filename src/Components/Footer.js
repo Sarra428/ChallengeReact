@@ -1,9 +1,9 @@
 
 
-function Footer(){
+function Footer(props){
     return(
         <footer>
-        <p>Copyritghts &copy; GOMYCODE 2020</p>
+        <p>Copyritghts &copy; {props.title}</p>
       </footer>
     )
     ;
